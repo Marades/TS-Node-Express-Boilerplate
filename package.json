@@ -1,0 +1,35 @@
+{
+  "name": "ts-node-express-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerpalte Template For Node-Express Project with Typescript",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marades/TS-Node-Express-Boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "javascript",
+    "typescript",
+    "js",
+    "boilerplate"
+  ],
+  "author": "Marades",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marades/TS-Node-Express-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Marades/TS-Node-Express-Boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "cross-env": "^7.0.3"
+  }
+}
