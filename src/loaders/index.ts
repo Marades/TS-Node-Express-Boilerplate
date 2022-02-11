@@ -3,5 +3,5 @@ import moduleAlias from "module-alias";
 
 export default async ({ app }) => {
   moduleAlias.addAlias("@", __dirname);
-  await expressLoader({ app });
+  await expressLoader(app);
 };

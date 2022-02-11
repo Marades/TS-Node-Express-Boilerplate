@@ -1,5 +1,5 @@
-import { Router, Request, Response } from "express";
-import example from "./routes/example";
+import { Router } from "express";
+import example from "@/module/examples/examples.route";
 
 export default () => {
   const app = Router();
