@@ -26,8 +26,10 @@
   },
   "homepage": "https://github.com/Marades/TS-Node-Express-Boilerplate#readme",
   "dependencies": {
+    "celebrate": "^15.0.1",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
+    "reflect-metadata": "^0.1.13",
     "typedi": "^0.10.0"
   },
   "devDependencies": {

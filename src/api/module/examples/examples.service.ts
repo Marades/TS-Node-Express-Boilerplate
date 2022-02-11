@@ -9,4 +9,11 @@ export default class ExampleService {
       Example: `example ${seq}`,
     };
   }
+
+  public async addUser(name) {
+    return {
+      id: 1,
+      name,
+    };
+  }
 }

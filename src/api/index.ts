@@ -1,5 +1,5 @@
 import { Router } from "express";
-import example from "@/module/examples/examples.route";
+import example from "./module/examples/examples.route";
 
 export default () => {
   const app = Router();
