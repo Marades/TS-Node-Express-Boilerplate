@@ -4,6 +4,7 @@
   "description": "Boilerpalte Template For Node-Express Project with Typescript",
   "main": "src/app.ts",
   "scripts": {
+    "start": "tsc && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,11 +27,13 @@
   "homepage": "https://github.com/Marades/TS-Node-Express-Boilerplate#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "typedi": "^0.10.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/node": "^17.0.16",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "module-alias": "^2.2.2"
   }
 }
