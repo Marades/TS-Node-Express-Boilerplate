@@ -13,4 +13,5 @@ if (envResult.error) {
 
 export default {
   port: +env.PORT,
+  isProduction: env.NODE_ENV === 'production' ? true : false
 };
